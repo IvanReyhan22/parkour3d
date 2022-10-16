@@ -6,12 +6,12 @@ public class ObjectHorizontalMovement : MonoBehaviour
 {
     public GameObject obj, leftLimit, rightLimit;
     private bool isOnRight;
-    private float movementForce;
+    public float movementForce;
     // Start is called before the first frame update
     void Start()
     {
         isOnRight = false;
-        movementForce = 0.01f;
+        movementForce = 0.02f;
     }
 
     // Update is called once per frame

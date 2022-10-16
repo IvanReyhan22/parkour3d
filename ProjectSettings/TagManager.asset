@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - destroyable
+  - FallBorder
   layers:
   - Default
   - TransparentFX
