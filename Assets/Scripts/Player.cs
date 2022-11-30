@@ -70,10 +70,10 @@ public class Player : MonoBehaviour
         if (Input.GetAxis("Vertical") > 0) {
             animator.SetBool("isRunning",true);
             transform.Translate ( (force * Vector3.forward) * Time.deltaTime, Camera.main.transform);
-            rb.AddForce(Camera.main.transform.forward * force * Time.deltaTime, ForceMode.VelocityChange);
         }else {
             animator.SetBool("isRunning",false);
         }
+        
         Jump();
     }
 
@@ -88,3 +88,11 @@ public class Player : MonoBehaviour
         }
     }
 }
+
+
+
+
+
+
+
+// rb.AddForce(Camera.main.transform.forward * force * Time.deltaTime, ForceMode.VelocityChange);

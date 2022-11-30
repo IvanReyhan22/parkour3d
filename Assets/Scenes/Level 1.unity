@@ -12804,6 +12804,10 @@ PrefabInstance:
       propertyPath: starCount
       value: 
       objectReference: {fileID: 1858140214}
+    - target: {fileID: 7129526372575123107, guid: 665d3618f82f95740851940a18789ec2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7129526372575123109, guid: 665d3618f82f95740851940a18789ec2, type: 3}
       propertyPath: m_RootOrder
       value: 2
